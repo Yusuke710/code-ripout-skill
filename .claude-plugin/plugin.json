@@ -1,0 +1,11 @@
+{
+  "name": "code_ripout",
+  "version": "1.0.0",
+  "description": "Rip out functionality from complex libraries into self-contained files using DeepWiki MCP + GitHub CLI. Inspired by Karpathy's workflow for increasing software malleability.",
+  "author": {
+    "name": "Yusuke710"
+  },
+  "repository": "https://github.com/Yusuke710/code_ripout",
+  "license": "MIT",
+  "keywords": ["deepwiki", "ripout", "distill", "self-contained", "malleability"]
+}
