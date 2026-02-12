@@ -21,6 +21,13 @@ This skill automates the workflow:
 4. Produce a minimal self-contained file with identical core API
 5. Verify parity with the original
 
+## Installation
+
+```bash
+/plugin marketplace add Yusuke710/code-ripout-skill
+/plugin install code_ripout@code-ripout-skill
+```
+
 ## Requirements
 
 ### DeepWiki MCP
