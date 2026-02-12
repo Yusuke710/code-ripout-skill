@@ -23,14 +23,7 @@ This skill automates the workflow:
 
 ## Installation
 
-```bash
-/plugin marketplace add Yusuke710/code-ripout-skill
-/plugin install code_ripout@code-ripout-skill
-```
-
-## Requirements
-
-### DeepWiki MCP
+### 1. DeepWiki MCP
 
 Provides `mcp__deepwiki__ask_question` and `mcp__deepwiki__read_wiki_structure` for querying any GitHub repo.
 
@@ -40,11 +33,18 @@ claude mcp add -s user -t http deepwiki https://mcp.deepwiki.com/mcp
 
 > Source: https://docs.devin.ai/work-with-devin/deepwiki-mcp
 
-### GitHub CLI
+### 2. GitHub CLI
 
 Used to read source files directly from repositories.
 
 ```bash
 brew install gh
 gh auth login
+```
+
+### 3. Install the plugin
+
+```bash
+/plugin marketplace add Yusuke710/code-ripout-skill
+/plugin install code_ripout@code-ripout-skill
 ```
