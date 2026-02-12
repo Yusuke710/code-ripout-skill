@@ -1,0 +1,24 @@
+{
+  "name": "code-ripout",
+  "owner": {
+    "name": "Yusuke710"
+  },
+  "metadata": {
+    "description": "Karpathy's workflow for increasing software malleability",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "code_ripout",
+      "source": "..",
+      "description": "Rip out functionality from complex libraries into self-contained files using DeepWiki MCP + GitHub CLI.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Yusuke710"
+      },
+      "repository": "https://github.com/Yusuke710/code_ripout",
+      "keywords": ["deepwiki", "ripout", "distill", "self-contained", "malleability"],
+      "category": "development"
+    }
+  ]
+}
