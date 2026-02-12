@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "code_ripout",
-      "source": "..",
+      "source": "./",
       "description": "Rip out functionality from complex libraries into self-contained files using DeepWiki MCP + GitHub CLI.",
       "version": "1.0.0",
       "author": {
